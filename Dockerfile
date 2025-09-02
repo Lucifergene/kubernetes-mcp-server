@@ -1,4 +1,4 @@
-FROM golang:latest AS builder
+FROM quay.io/projectquay/golang:1.25 AS builder
 
 WORKDIR /app
 
